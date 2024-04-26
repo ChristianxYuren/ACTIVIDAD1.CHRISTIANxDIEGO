@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <title>Actividad de Christian y diego</title>
+
+</head >
+<style> 
+  .horizontal-list {
+white-space: nowrap;
+overflow-x: auto;
+font-size: 43px; 
+}
+.horizontal-list li {
+display: inline;
+margin-right: 10px;
+padding: 0 10px;
+border-radius: 100px;
+}
+.navigation-buttons {
+margin-top: 5px; 
+text-align: center;
+}
+.navigation-buttons button {
+font-size: 20px; 
+margin: 0 10px;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+background-color: black; 
+color: aqua;
+cursor: pointer; 
+}
+
+   body, html{
+  margin: 0;
+  padding: 0;
+  width: auto;
+  height: auto;
+}
+  .fondoTexto{
+      width: 100%;
+      height: 100%;
+      background-color:antiquewhite;
+  }
+  .texto{
+      text-align: center;
+      color:aqua;
+  }
+</style>
+<script>
+function previousPage(currentPage) {
+if (currentPage > 1) {
+  var previousPageNumber = currentPage - 1;
+  window.location.href = "tema" + previousPageNumber + ".html";
+}
+}
+
+function nextPage(currentPage) {
+if (currentPage < 6) {
+  var nextPageNumber = currentPage + 1;
+  window.location.href = "tema" + nextPageNumber + ".html";
+}
+}
+</script> 
+<style>
+  img{
+      width: 100px;
+      height: 60px;
+
+  }
+  table th,td{
+      border: 1px dotted rgb(50, 6, 243);
+  }
+  table{
+      width: 50%;
+      margin-top: 10px;
+      border-collapse: collapse;
+      box-shadow: 0 5px 15px black;
+      margin-left: 300px;
+  }
+  th, tr{
+      text-align: center;
+      padding: 10px;
+  }
+  .container {
+    justify-content: center;
+    align-items: center;
+  }
+
+</style> 
+
+<body style="background-color: black;">
+    <div class="texto">
+      <marquee><h1 style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;font-size: 60px;" >SUSTENTABILIDAD Y MEDIO AMBIENTE</h1></marquee>
+    </div>
+        <div class="fondoTexto">
+          <h1 style="text-align: center;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">Índice</h1>
+          <table class="container">
+            <tr>
+            <th>NUM.PAG</th>
+            <th>TEMA</th>
+            <th>SUBTEMAS</th>
+            </tr>
+              <tr>
+                <td><img src="img/index.jpg" alt="Indice"></td>
+                <td><a href="index.html">CONCEPTOS</a></td>
+                <td><p>SUSTENTABILIDAD,MEDIO AMBIENTE Y Desarrollo sustentable</p></td>
+              </tr>
+              <tr>
+                <tr>
+                    <tr>
+                      <td><img src="img/2.jpg" alt="Indice"></td>
+                      <td><a href="tema2.html">La Importancia del Medio Ambiente en la Actualidad</a></td>
+                      <td><p>Impactos del crecimiento poblacional en la sostenibilidad ambiental</p></td>
+                    </tr>
+                    <tr>
+                      <tr>
+                          <tr>
+                            <td><img src="img/3.jpg" alt="Indice"></td>
+                            <td><a href="tema3.html">Impacto del Cambio Climático en la Sociedad y el Medio Ambiente</a></td>
+                            <td><p>Consecuencias Sociales y Ambientales del Cambio Climático</p></td>
+                          </tr>
+                          <tr>
+                                <tr>
+                                  <td><img src="img/4.jpg" alt="Indice"></td>
+                                  <td><a href="tema4.html">Consumo Responsable:Impacto Ambiental y Alternativas Sostenibles</a></td>
+                                  <td><p>Promoción de Productos Ecológicos y Minimalismo</p></td>
+                                </tr>
+                                <tr>
+                                      <tr>
+                                        <td><img src="img/5.jpg" alt="Indice"></td>
+                                        <td><a href="tema5.html">Efecto del Cambio Climático en la Vida Cotidiana: Adaptación y Resiliencia</a></td>
+                                        <td><p>Adaptación Comunitaria y Gestión de Riesgos Climático</p></td>
+                                      </tr>
+                                      <tr>
+                                            <tr>
+                                              <td><img src="img/6.jpg" alt="Indice"></td>
+                                              <td><a href="tema6.html">FORMULARIO ESTUDIANTIL</a></td>
+                                              <td><p>PREGUNTAS</p></td>
+                                            </tr>
+                                            <tr>
+          </table>
+      
+          <div class="titulo">
+          <h2 id="index" style="text-align: center; font-size: 60px;font-family: Arial, Helvetica, sans-serif;color: black;">CONCEPTOS</h2></div>
+          <p><h3 style="font-size: 40px;color: blue;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">SUSTENTABILIDAD.</h3> <p style="font-size: 35px;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"> Es la capacidad de satisfacer las necesidades presentes sin comprometer la capacidad de las futuras generaciones para satisfacer sus propias necesidades. Implica la búsqueda de un equilibrio entre el desarrollo económico, social y ambiental, asegurando la preservación de los recursos naturales y la calidad de vida de las personas a largo plazo. </p>
+            <h3 style="font-size: 40px;color: blue;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">MEDIO AMBIENTE.</h3><p style="font-size: 35px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Se refiere al conjunto de elementos naturales y artificiales que rodean a los seres vivos. Incluye el aire, el agua, el suelo, la flora, la fauna y los recursos naturales en general. El medio ambiente es fundamental para la vida en la Tierra y proporciona los recursos necesarios para la supervivencia y el desarrollo de todas las formas de vida. Su preservación es crucial para garantizar un futuro sostenible para las generaciones venideras. </p>
+          <h3 style="font-size: 40px;color: blue;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Desarrollo sustentable </h3><p style="font-size: 35px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">La búsqueda de soluciones al deterioro ambiental ha encontrado en el desarrollo sustentable un aliado para crear nuevos métodos de subsistencia que no se basen en el daño al medio ambiente pero que tampoco impliquen atraso. Así, para los defensores de este tipo de teoría, es importante y además urgente recurrir a nuevas energías que utilicen recursos renovables y no agotables como el petróleo, a nuevas formas de comercio y consumo que no se centren en la noción de productos descartables y transgénicos sino en la presencia de productos orgánicos, sanos y que no transformen el medio ambiente.</p></p>
+
+        </div>
+    <div class="horizontal-list">
+        <ul>
+            <div class="navigation-buttons">
+                <button class="back-button" onclick="previousPage(7)"><</button>
+              
+
+                <li><a href="index.html" style="color: aqua;">1</a></li>
+                <li><a href="tema2.html" style="color: aqua;">2</a></li>
+                <li><a href="tema3.html" style="color: aqua;">3</a></li>
+                <li><a href="tema4.html" style="color: aqua;">4</a></li>
+                <li><a href="tema5.html" style="color: aqua;">5</a></li>
+                <li><a href="tema6.html" style="color: aqua;">6</a></li>
+          <button class="next-button" onclick="nextPage(1)">></button>
+
+
+        </ul>
+       
+
+      </div>
+    
+</body>
+</html>
